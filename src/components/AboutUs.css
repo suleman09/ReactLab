@@ -1,0 +1,82 @@
+.About {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 254, 254);
+  }
+ 
+  #team{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 7%;
+  }
+  #team img{
+    width:  200px;
+    height: 200px;
+    margin-right: 10%;
+  }
+  #teamTitle{
+    font-size: 24px;
+    font-weight: 300;
+    
+  }
+  #teamPos{
+    font-size: 16px;
+    font-weight: 100;
+  }
+  #pageTitle{
+    display: none;
+  }
+  #pageTitle1{
+    display: block;
+  }
+  #pageTitle p{
+
+    font-size: 48px;
+    font-weight: 100;
+  }
+  #pageTitle1 p{
+
+    font-size: 48px;
+    font-weight: 100;
+  }
+  #pageData{
+
+    font-size: 16px;
+    font-weight: 100;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #pageData p{
+    text-align: justify;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  #middleColumn{
+    border-right: 0px solid rgb(0, 0, 0);
+  }
+  #rightColumn{
+  border-left: 0px solid rgb(0, 0, 0);
+  border-right: 3px;
+  }
+  #imgRight{
+   
+      margin-left: 10%;
+  }
+
+ 
+  @media only screen and (max-width: 600px) {
+  .About {
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  #pageTitle{
+    display: block;
+  }
+}
